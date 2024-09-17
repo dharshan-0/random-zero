@@ -1,0 +1,33 @@
+{
+  "name": "random-zero",
+  "version": "1.0.0",
+  "description": "generates random number of zero",
+  "main": "./dist/src/lib/index.js",
+  "module": "./dist/src/lib/index.js",
+  "type": "module",
+  "typings": "./types/src/lib/index.d.ts",
+  "bin": "./dist/src/scripts/script.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist/* ./types/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharshan-0/random-zero.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Dharshan <me.dharshan.1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dharshan-0/random-zero/issues"
+  },
+  "homepage": "https://github.com/dharshan-0/random-zero#readme",
+  "dependencies": {
+    "command-line-args": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.3"
+  }
+}
